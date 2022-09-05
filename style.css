@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #141414;
+}
+.navbar {
+    background:#5c80aa;
+}
+.nav-link,
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #7476ce;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-color: rgb(32, 32, 32);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+.txt1 {
+    color:rgb(255, 255, 255)
+}
+
+.enemy {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(129, 52, 52); 
+    width:200px; 
+    height: 500px; 
+    display: inline-block;
+}
+.enemyPFP {
+    width:200px;
+    display: block;
+}
+.block {
+    display: block;
+}
+
+.enemyList {
+    border-width: 3px; 
+    background-color: rgb(51, 51, 51); 
+    width:900px; 
+    height: 600px; 
+    border: 3px;
+} .enemyListBack {
+    background-color: rgb(255, 255, 255);
+    width:906px; 
+    height: 606px; 
+    padding: 3px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 64px;
+}
